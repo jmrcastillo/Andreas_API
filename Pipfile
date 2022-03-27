@@ -1,0 +1,28 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+django-debug-toolbar = "*"
+django-extensions = "*"
+ipython = "*"
+bpython = "*"
+werkzeug = "*"
+pytest = "*"
+pytest-cov = "*"
+
+[packages]
+django = "*"
+djangorestframework = "*"
+django-rest-auth = "*"
+django-allauth = "*"
+coreapi = "*"
+pyyaml = "*"
+psycopg2-binary = "*"
+dj-rest-auth = "*"
+pillow = "*"
+drf-yasg = "*"
+
+[requires]
+python_version = "3.8"
